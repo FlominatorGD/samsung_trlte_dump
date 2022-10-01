@@ -1,0 +1,14 @@
+kernel=kernel
+ramdisk=ramdisk
+page_size=4096
+dt=dt.img
+kernel_size=9879056
+ramdisk_size=5041539
+dtb_size=3407872
+base_addr=0x00000000
+kernel_offset=0x00008000
+ramdisk_offset=0x02600000
+tags_offset=0x02400000
+dtbo_offset=0x00000000
+cmd_line='console=null androidboot.hardware=qcom user_debug=23 msm_rtb.filter=0x3b7 dwc3_msm.cpu_to_affin=1'
+board="SYSMAGIC000RU"
